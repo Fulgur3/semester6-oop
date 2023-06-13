@@ -1,0 +1,203 @@
+body {
+	background-color: #9AE;
+}
+
+.App {
+	background-color: #EEE;
+	text-align: center;
+	width: 80%;
+	margin: 10px auto;
+	overflow: auto;
+}
+
+.content {
+	padding: 15px;
+}
+
+#banner-img {
+	width: 100%;
+	max-height: 200px;
+	object-fit: cover;
+}
+
+ul.header {
+	width: 100%;
+	padding: 0;
+	background-color: #000;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.header li a {
+  color: #FFF;
+  background-color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+ul.header li a.active {
+	background-color: #666;
+}
+
+ul.header li a:hover {
+	background-color: #888;
+}
+
+table {
+	display: inline;
+}
+
+table tr:nth-child(odd) {
+	background-color: #1111;
+}
+
+table td {
+	padding: 5px;
+}
+
+
+
+.price {
+	font-size: 20pt;
+}
+
+.go {
+	font-size: 18pt;
+}
+
+
+
+.car-info-page img {
+	width: 50%;
+	height: auto;
+	float: left;
+	clear: both;
+}
+
+.car-info-page .description {
+	margin-left: 10px;
+	overflow: auto;
+	display: block;
+}
+
+.car-info-page .img-desc {
+	overflow: auto;
+}
+
+
+.car {
+	max-width: 400px;
+	margin: auto;
+	overflow: auto;
+	background-color: #FFF;
+	text-align: left;
+	padding: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.car:hover {
+	background-color: #DDD;
+}
+
+
+.car img {
+	width: 160px;
+	height: 90px;
+	object-fit: cover;
+	float: left;
+	clear: both;
+}
+
+.car .car-text {
+	float: left;
+}
+
+.car span {
+	padding: 4px;
+	text-align: left;
+}
+
+.car .car-name {
+	font-size: 18pt;
+}
+
+
+
+.rent-request {
+	margin: auto;
+	max-width: 800px;
+	text-align: left;
+	margin-bottom: 5px;
+	background-color: #FFF;
+	padding: 10px;
+	overflow: auto;
+}
+
+.rent-request .user-id {
+	color: #666;
+}
+
+.rent-request .car-name {
+	font-size: 18pt;
+}
+
+.rent-request .total-cost {
+	font-size: 14pt;
+}
+
+.rent-request .col {
+	float: left;
+	height: 100%;
+	padding-right: 20px;
+}
+
+.rent-request .col1 {
+	height: 100%;
+	width: 25%;
+}
+
+.rent-request .message {
+	height: 100%;
+	width: 50%;
+}
+
+.rent-request .manage {
+	float: right;
+}
+
+.rent-request .manage button {
+ 	display: block;
+}
+
+
+
+
+.account-fill-form label {
+	display: inline-block;
+	text-align: right;
+	width: 150px;
+}
+
+
+
+.footer {
+	height: 200px;
+	width: 100%;
+	background-color: #000;
+	color: #FFF;
+	padding: 50px;
+	box-sizing: border-box;
+	margin-top: 50px;
+}
+
+.footer span {
+	display: block;
+	text-align: left;
+}

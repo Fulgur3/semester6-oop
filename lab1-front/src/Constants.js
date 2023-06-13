@@ -1,0 +1,9 @@
+const API_SERVER = "http://localhost:18080/is-lab"
+const STATUS_PENDING = 0;
+const STATUS_DENIED = 1;
+const STATUS_ACTIVE = 3;
+const STATUS_REPAIR_NEEDED = 4;
+const STATUS_ENDED = 5;
+
+export default API_SERVER;
+export { STATUS_ENDED, STATUS_REPAIR_NEEDED, STATUS_ACTIVE, STATUS_DENIED, STATUS_PENDING };

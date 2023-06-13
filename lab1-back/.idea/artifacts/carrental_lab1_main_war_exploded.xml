@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="carrental.lab1.main:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/carrental_lab1_main_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ua.yuriih.carrental.lab1.main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.12.2" />
+          <element id="library" level="project" name="Gradle: org.postgresql:postgresql:42.2.20.jre7" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.12.2" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.12.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ua.yuriih.carrental.lab1.main/web/Web" />
+    </root>
+  </artifact>
+</component>
